@@ -28,7 +28,7 @@ namespace StoredProc
         public void ConfigureServices(IServiceCollection services)
         {
 
-            var connection = @"server=usdevsqdb05;Database=WebTools;Trusted_Connection=True;user id=SQLADMIN;password='Goldmine00';";
+            var connection = @"server=usdevsqdb05;Database=WebTools;Trusted_Connection=True;user id=SQLADMIN;password='1234';";
             services.AddDbContext<StoredProcContext>(options => options.UseSqlServer(connection));
             services.Configure<CookiePolicyOptions>(options =>
             {
