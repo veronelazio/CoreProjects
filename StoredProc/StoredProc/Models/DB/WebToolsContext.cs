@@ -32,7 +32,7 @@ namespace StoredProc.Models.DB
         //            if (!optionsBuilder.IsConfigured)
         //            {
         //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-        //                optionsBuilder.UseSqlServer("server=usdevsqdb05;Database=WebTools;Trusted_Connection=True;user id=SQLADMIN;password='Goldmine00';");
+        //                optionsBuilder.UseSqlServer("server=usdevsqdb05;Database=WebTools;Trusted_Connection=True;user id=SQLADMIN;password='1234';");
         //            }
         //        }
         public partial class StoredProcContext : DbContext
